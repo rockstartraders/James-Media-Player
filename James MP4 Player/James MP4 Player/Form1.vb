@@ -69,7 +69,7 @@
         AxWindowsMediaPlayer1.Ctlcontrols.stop()
 
         ListBox2.ClearSelected()
-
+        Label4.Hide()
 
 
 
