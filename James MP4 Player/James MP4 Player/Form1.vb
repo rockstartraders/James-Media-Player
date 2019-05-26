@@ -161,8 +161,10 @@
 
             If ListBox2.SelectedIndex = ListBox2.Items.Count - 1 Then
                 ListBox2.SelectedIndex = 0
+                AxWindowsMediaPlayer1.settings.setMode("Loop", True)
             Else
                 ListBox2.SelectedIndex += 1
+                AxWindowsMediaPlayer1.settings.setMode("Loop", True)
             End If
 
 
