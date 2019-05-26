@@ -135,7 +135,6 @@ Partial Class Form1
         Me.ListBox2.FormattingEnabled = True
         Me.ListBox2.ItemHeight = 17
         Me.ListBox2.Location = New System.Drawing.Point(587, 32)
-        Me.ListBox2.MultiColumn = True
         Me.ListBox2.Name = "ListBox2"
         Me.ListBox2.Size = New System.Drawing.Size(266, 189)
         Me.ListBox2.TabIndex = 13
