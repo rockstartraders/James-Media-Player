@@ -1,0 +1,17 @@
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\bin\Debug\James MP4 Player.exe.config
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\bin\Debug\James MP4 Player.exe
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\bin\Debug\James MP4 Player.pdb
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\bin\Debug\James MP4 Player.xml
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\James MP4 Player.vbproj.ResolveComReference.cache
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\James_MP4_Player.Form1.resources
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\James_MP4_Player.Resources.resources
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\James MP4 Player.vbproj.GenerateResource.Cache
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\James MP4 Player.exe
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\James MP4 Player.xml
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\James MP4 Player.pdb
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\James MP4 Player.vbprojResolveAssemblyReference.cache
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\bin\Debug\Interop.WMPLib.dll
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\Interop.WMPLib.dll
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\GAMING_RIG\Desktop\James_MP4_player\James MP4 Player\James MP4 Player\obj\Debug\James_MP4_Player.about.resources
