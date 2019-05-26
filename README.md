@@ -26,9 +26,9 @@ git clone https://github.com/rockstartraders/James-Media-Player.git
 
 ## **Screenshot**
 
-<img src="././Images/screenshot/ss2.PNG"><br><br>
+<img src="././Images/screenshot/ss2.PNG">
+
 #### `Please Excuse my desktop if its a complete mess.`
 
-<img src="././Images/screenshot/ss.png"><br>
-
-##### Fixes and enhancement may be needed but for the meantime this is fine with me.
+<img src="././Images/screenshot/ss.png">
+#### `Fixes and enhancement may be needed but for the meantime this is fine with me.`
