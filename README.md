@@ -22,13 +22,9 @@ James-Media-Player
 git clone https://github.com/rockstartraders/James-Media-Player.git
 ```
 ##### then `unzip` the path for the .exe build is loacted at `James MP4 Player/ -> James MP4 Player/ -> bin/Debug/ -> James MP4 Player.exe`.
-
-
 ## **Screenshot**
-
+#### `Please Excuse my desktop if its a complete mess.`<br>`Fixes and enhancement may be needed but for the meantime this is fine with me.`
 <img src="././Images/screenshot/ss2.PNG">
 
-#### `Please Excuse my desktop if its a complete mess.`
 
 <img src="././Images/screenshot/ss.png">
-#### `Fixes and enhancement may be needed but for the meantime this is fine with me.`
