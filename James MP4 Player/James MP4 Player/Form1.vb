@@ -47,8 +47,8 @@
 
 
         AxWindowsMediaPlayer1.Ctlcontrols.play()
-        AxWindowsMediaPlayer1.settings.setMode("Loop", True)
-        Label2.Hide()
+        'AxWindowsMediaPlayer1.settings.setMode("Loop", True)
+        Label4.Hide()
         
 
 
@@ -56,8 +56,9 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
+        Label4.Show()
         AxWindowsMediaPlayer1.Ctlcontrols.pause()
-        Label2.Show()
+
 
 
 
@@ -66,6 +67,7 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
 
         AxWindowsMediaPlayer1.Ctlcontrols.stop()
+        Label5.Show()
 
     End Sub
 
@@ -87,8 +89,10 @@
 
 
         Button7.Enabled = False
-        Label2.Hide()
+        Label4.Hide()
         Label3.Hide()
+        Label2.Hide()
+        Label5.Hide()
 
     End Sub
 
@@ -169,9 +173,9 @@
 
     End Sub
 
-    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
+    Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs)
 
-       
+
 
     End Sub
 
@@ -223,9 +227,9 @@
 
     Private Sub ListBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox2.SelectedIndexChanged
 
-
+        
         AxWindowsMediaPlayer1.URL = paths(ListBox2.SelectedIndex)
-
+        AxWindowsMediaPlayer1.settings.setMode("Loop", True)
        
 
 
