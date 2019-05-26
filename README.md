@@ -21,6 +21,7 @@ James-Media-Player
 ##### then `unzip` the path for the .exe build is loacted at `James MP4 Player/ -> James MP4 Player/ -> bin/Debug/ -> James MP4 Player.exe`.
 
 <br>
-## **Screenshot**
+## **Enhacement** ##
+
 <br>
 <img src="././Images/screenshot/ss.png" width="800" height="900">
