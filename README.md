@@ -18,11 +18,12 @@ James-Media-Player
 ##### `Slider` can also be added for UI purposes.
 
 <br>
-**DOWNLOAD** <br>`git clone https://github.com/rockstartraders/James-Media-Player.git` then `unzip` the path for the .exe build is loacted at `James MP4 Player/ -> James MP4 Player/ -> bin/Debug/ -> James MP4 Player.exe`.
+## **DOWNLOAD**
+`git clone https://github.com/rockstartraders/James-Media-Player.git` then `unzip` the path for the .exe build is loacted at `James MP4 Player/ -> James MP4 Player/ -> bin/Debug/ -> James MP4 Player.exe`.
 
 
 <br>
-**Screenshot**
+## **Screenshot**
 <p align="center">
-<img src="././Images/screenshot/ss.png" width="900" height="800">
+<img src="././Images/screenshot/ss.png" width="400" height="700">
 </p>
