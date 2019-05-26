@@ -67,7 +67,11 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
 
         AxWindowsMediaPlayer1.Ctlcontrols.stop()
-        Label5.Show()
+
+        ListBox2.ClearSelected()
+
+
+
 
     End Sub
 
@@ -92,7 +96,7 @@
         Label4.Hide()
         Label3.Hide()
         Label2.Hide()
-        Label5.Hide()
+
 
     End Sub
 
@@ -204,12 +208,15 @@
 
     Private Sub ListBox2_Click(sender As Object, e As EventArgs) Handles ListBox2.Click
 
+
+        AxWindowsMediaPlayer1.URL = paths(ListBox2.SelectedIndex)
+        AxWindowsMediaPlayer1.Ctlcontrols.play()
         
     End Sub
 
     Private Sub ListBox2_DoubleClick(sender As Object, e As EventArgs) Handles ListBox2.DoubleClick
 
-        
+       
 
     End Sub
 
@@ -228,9 +235,9 @@
     Private Sub ListBox2_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox2.SelectedIndexChanged
 
         
-        AxWindowsMediaPlayer1.URL = paths(ListBox2.SelectedIndex)
-        AxWindowsMediaPlayer1.settings.setMode("Loop", True)
-       
+        ' AxWindowsMediaPlayer1.URL = paths(ListBox2.SelectedIndex)
+
+
 
 
 
@@ -247,6 +254,7 @@
     Private Sub ListBox2_SelectedValueChanged(sender As Object, e As EventArgs) Handles ListBox2.SelectedValueChanged
 
 
+       
 
     End Sub
 

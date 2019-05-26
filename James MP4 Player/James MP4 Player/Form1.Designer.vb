@@ -44,7 +44,6 @@ Partial Class Form1
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.AxWindowsMediaPlayer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -55,7 +54,7 @@ Partial Class Form1
         Me.AxWindowsMediaPlayer1.Location = New System.Drawing.Point(0, 32)
         Me.AxWindowsMediaPlayer1.Name = "AxWindowsMediaPlayer1"
         Me.AxWindowsMediaPlayer1.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(581, 134)
+        Me.AxWindowsMediaPlayer1.Size = New System.Drawing.Size(581, 138)
         Me.AxWindowsMediaPlayer1.TabIndex = 1
         '
         'MenuStrip1
@@ -172,24 +171,28 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.Transparent
+        Me.Button5.Enabled = False
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Image = Global.James_MP4_Player.My.Resources.Resources.back1
-        Me.Button5.Location = New System.Drawing.Point(395, 176)
+        Me.Button5.Location = New System.Drawing.Point(476, 172)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(75, 43)
+        Me.Button5.Size = New System.Drawing.Size(12, 43)
         Me.Button5.TabIndex = 18
         Me.Button5.UseVisualStyleBackColor = False
+        Me.Button5.Visible = False
         '
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.Transparent
+        Me.Button4.Enabled = False
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Image = Global.James_MP4_Player.My.Resources.Resources.next1
-        Me.Button4.Location = New System.Drawing.Point(314, 176)
+        Me.Button4.Location = New System.Drawing.Point(458, 172)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 43)
+        Me.Button4.Size = New System.Drawing.Size(12, 43)
         Me.Button4.TabIndex = 17
         Me.Button4.UseVisualStyleBackColor = False
+        Me.Button4.Visible = False
         '
         'Button7
         '
@@ -220,7 +223,7 @@ Partial Class Form1
         Me.Button3.BackColor = System.Drawing.Color.Transparent
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Image = Global.James_MP4_Player.My.Resources.Resources._stop
-        Me.Button3.Location = New System.Drawing.Point(233, 176)
+        Me.Button3.Location = New System.Drawing.Point(351, 176)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 43)
         Me.Button3.TabIndex = 3
@@ -231,7 +234,7 @@ Partial Class Form1
         Me.Button2.BackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Image = Global.James_MP4_Player.My.Resources.Resources.round_pause_button
-        Me.Button2.Location = New System.Drawing.Point(152, 176)
+        Me.Button2.Location = New System.Drawing.Point(270, 176)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 43)
         Me.Button2.TabIndex = 2
@@ -243,7 +246,7 @@ Partial Class Form1
         Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.WhiteSmoke
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Image = Global.James_MP4_Player.My.Resources.Resources.play_button1
-        Me.Button1.Location = New System.Drawing.Point(71, 176)
+        Me.Button1.Location = New System.Drawing.Point(189, 176)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 43)
         Me.Button1.TabIndex = 0
@@ -265,27 +268,11 @@ Partial Class Form1
         Me.Label4.Text = "  PAUSE  "
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label5
-        '
-        Me.Label5.Anchor = System.Windows.Forms.AnchorStyles.Bottom
-        Me.Label5.BackColor = System.Drawing.Color.Black
-        Me.Label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI Semibold", 48.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.ImageAlign = System.Drawing.ContentAlignment.TopRight
-        Me.Label5.Location = New System.Drawing.Point(149, 53)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(295, 97)
-        Me.Label5.TabIndex = 20
-        Me.Label5.Text = "  STOP"
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
         'Form1
         '
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(853, 231)
-        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -335,6 +322,5 @@ Partial Class Form1
     Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents Label5 As System.Windows.Forms.Label
 
 End Class
