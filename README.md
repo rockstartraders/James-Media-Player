@@ -22,6 +22,6 @@ James-Media-Player
 
 
 ## **Screenshot**
-##### `Please Excuse my Messy desktop environment`
+
+<img src="././Images/screenshot/ss2.PNG"><br><br>
 <img src="././Images/screenshot/ss.png">
-<img src="././Images/screenshot/ss2.PNG">
