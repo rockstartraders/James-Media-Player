@@ -22,4 +22,5 @@ James-Media-Player
 
 <br>
 ## **Screenshot**
+<br>
 <img src="././Images/screenshot/ss.png" width="800" height="900">
